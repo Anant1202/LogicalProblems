@@ -7,6 +7,8 @@ namespace LogicalProblems
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Logical Problem Programs");
+            FibonacciSeries ob1= new FibonacciSeries();
+            ob1.CalculatingSeries();
         }
     }
 }
