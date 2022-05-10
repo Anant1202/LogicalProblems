@@ -9,8 +9,11 @@ namespace LogicalProblems
             Console.WriteLine("Welcome to Logical Problem Programs");
             //FibonacciSeries ob1= new FibonacciSeries();
             //ob1.CalculatingSeries();
-            PerfectNumber ob2= new PerfectNumber();
-            ob2.CalculatingSum();
+            //PerfectNumber ob2= new PerfectNumber();
+            //ob2.CalculatingSum();
+            PrimeNumber ob4= new PrimeNumber();
+            ob4.CheckingPrimeOrNot();
+
         }
     }
 }
