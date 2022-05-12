@@ -11,9 +11,10 @@ namespace LogicalProblems
             //ob1.CalculatingSeries();
             //PerfectNumber ob2= new PerfectNumber();
             //ob2.CalculatingSum();
-            PrimeNumber ob4= new PrimeNumber();
-            ob4.CheckingPrimeOrNot();
-
+            //PrimeNumber ob4= new PrimeNumber();
+            //ob4.CheckingPrimeOrNot();
+            ReverseNumber ob3=new ReverseNumber();
+            ob3.Reverse();
         }
     }
 }
