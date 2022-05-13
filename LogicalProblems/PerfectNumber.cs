@@ -21,7 +21,15 @@ namespace LogicalProblems
                     Console.Write(i+" " );
                 }
             }
-            Console.WriteLine(" Sum= "+sum);
+            Console.WriteLine("\nSum= "+sum);
+            if (sum == num)
+            {
+                Console.WriteLine("It is a Perfect number");
+            }
+            else
+            {
+                Console.WriteLine("It is not a Perfect number");
+            }
         }
     }
 }
