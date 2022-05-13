@@ -16,7 +16,8 @@ namespace LogicalProblems
                 Console.WriteLine("3.Prime Number Program");
                 Console.WriteLine("4.Reverse Number Program");
                 Console.WriteLine("5.Stopwatch Program");
-                Console.WriteLine("6.Exit");
+                Console.WriteLine("6.Temperature Conversion Program");
+                Console.WriteLine("7.Exit");
                 option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -41,13 +42,17 @@ namespace LogicalProblems
                         ob5.StopwatchProgram();
                         break;
                     case 6:
+                        TemperatureConversion ob6 = new TemperatureConversion();
+                        ob6.Temp();
+                        break;
+                    case 7:
                         Console.WriteLine("Exit");
                         break;
                     default:
                         Console.WriteLine("Enter value between 1 to 6");
                         break;
                 }
-            } while (option != 6);
+            } while (option != 7);
         }
     }
 }
