@@ -38,21 +38,27 @@ namespace LogicalProblems
                         ob3.Reverse();
                         break;
                     case 5:
-                        Stopwatch ob5 = new Stopwatch();
+                        StopwatchSimulator ob5 = new StopwatchSimulator();
                         ob5.StopwatchProgram();
                         break;
                     case 6:
+
                         TemperatureConversion ob6 = new TemperatureConversion();
                         ob6.Temp();
                         break;
                     case 7:
+
                         Console.WriteLine("Exit");
                         break;
                     default:
                         Console.WriteLine("Enter value between 1 to 6");
                         break;
                 }
+
+            
+
             } while (option != 7);
+
         }
     }
 }
